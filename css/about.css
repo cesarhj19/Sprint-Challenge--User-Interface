@@ -186,95 +186,52 @@ p {
   border-bottom: 1px dashed black;
 }
 
-.top-content .img-container img {
+.top-content .header-img img {
   padding-bottom: 25px;
 }
 
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
+.top-content .header-text {
+  margin: 0 20px;
+}
+
+.top-content .header-text p {
+  padding-bottom: 30px;
 }
 
 .middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.middle-content .boxes {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.middle-content .boxes .one {
-  background: teal;
-}
-
-.middle-content .boxes .two {
-  background: gold;
-}
-
-.middle-content .boxes .three {
-  background: cadetblue;
-}
-
-.middle-content .boxes .four {
-  background: coral;
-}
-
-.middle-content .boxes .five {
-  background: crimson;
-}
-
-.middle-content .boxes .six {
-  background: forestgreen;
-}
-
-.middle-content .boxes .seven {
-  background: darkorchid;
-}
-
-.middle-content .boxes .eight {
-  background: hotpink;
-}
-
-.middle-content .boxes .nine {
-  background: indigo;
-}
-
-.middle-content .boxes .ten {
-  background: dodgerblue;
-}
-
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
+  flex-flow: wrap;
   justify-content: space-around;
 }
 
-.bottom-content .text-container {
-  padding-right: 4%;
+.middle-content section {
+  width: 372px;
+  padding-top: 3px;
+  margin-bottom: 58px;
+  border-bottom: 1px dashed black;
+  height: 430px;
 }
 
-.bottom-content .text-container:last-child {
-  padding-right: 0;
+.middle-content section img {
+  padding-bottom: 15px;
+}
+
+.middle-content section p {
+  padding-bottom: 35px;
+}
+
+.middle-content section a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 6px 23px;
+}
+
+.bottom-content section {
+  width: 772px;
+  margin: 0 auto;
+  padding-bottom: 48px;
 }
 
 footer {
