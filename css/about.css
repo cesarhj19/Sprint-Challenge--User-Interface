@@ -208,6 +208,7 @@ p {
 
 .top-content .header-img img {
   padding-bottom: 25px;
+
 }
 
 .top-content .header-text {
@@ -234,6 +235,8 @@ p {
 
 .middle-content section img {
   padding-bottom: 15px;
+  width: 370px;
+  height: 251px;
 }
 
 .middle-content section p {
